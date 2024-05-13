@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Besht Calculator</title>
+</head>
+<body>
+    <div class="calc-container">
+        <div class="calc">
+            <div class="display"></div>
+            <div class="row-1">
+                <button onclick="resetDisplay()">AC</button>
+                <button onclick="reverseSign()">+/-</button>
+                <button onclick="percentage()">%</button>
+                <button value="3" class="operator">/</button>
+            </div>
+            <div class="row-2">
+                <button value="7" class="number">7</button>
+                <button value="8" class="number">8</button>
+                <button value="9" class="number">9</button>
+                <button value="2" class="operator">*</button>
+            </div>
+            <div class="row-3">
+                <button value="4" class="number">4</button>
+                <button value="5" class="number">5</button>
+                <button value="6" class="number">6</button>
+                <button value="1" class="operator">-</button>
+            </div>
+            <div class="row-4">
+                <button value="1" class="number">1</button>
+                <button value="2" class="number">2</button>
+                <button value="3" class="number">3</button>
+                <button value="0" class="operator">+</button>
+            </div>
+            <div class="row-5">
+                <button class="big">0</button>
+                <button onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
